@@ -1,0 +1,8 @@
+{
+  "name": "teleport-elements-core-react",
+  "version": "0.0.1",
+  "type": "mapping",
+  "target": "react",
+  "library": "teleport-elements-core",
+  "extends": "teleport-elements-core-html"
+}
