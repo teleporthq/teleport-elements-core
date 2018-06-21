@@ -1,0 +1,13 @@
+{
+  "name": "teleport-elements-core-nuxt",
+  "version": "0.0.1",
+  "type": "mapping",
+  "target": "nuxt",
+  "library": "teleport-elements-core",
+  "extends": "teleport-elements-core-vue",
+  "maps": {
+    "Link": {
+      "type": "nuxt-link"
+    }
+  }
+}
