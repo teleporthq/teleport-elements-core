@@ -6,7 +6,6 @@
     "View": {
       "defaults": {
         "style": {
-          "display": "flex",
           "backgroundColor": "#c0c0c0",
           "width": 100,
           "height": 50
@@ -16,7 +15,6 @@
     "Image": {
       "defaults": {
         "style": {
-          "display": "flex",
           "width": 300,
           "height": 250
         }
@@ -34,7 +32,6 @@
     "Pre": {
       "defaults": {
         "style": {
-          "display": "flex",
           "color": "#000"
         },
         "children": "pre"
@@ -43,7 +40,6 @@
     "H1": {
       "defaults": {
         "style": {
-          "display": "flex",
           "color": "#000",
           "fontSize": 24
         },
@@ -53,7 +49,6 @@
     "Button": {
       "defaults": {
         "style": {
-          "display": "flex",
           "backgroundColor": "blue",
           "width": 55,
           "height": 25,
