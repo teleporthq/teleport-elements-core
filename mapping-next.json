@@ -1,0 +1,14 @@
+{
+  "name": "teleport-elements-core-next",
+  "version": "0.0.1",
+  "type": "mapping",
+  "target": "next",
+  "library": "teleport-elements-core",
+  "extends": "teleport-elements-core-react",
+  "maps": {
+    "Link": {
+      "type": "Link",
+      "source": "next/link"
+    }
+  }
+}
