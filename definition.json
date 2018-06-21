@@ -1,8 +1,0 @@
-{
-  "name": "teleport-elements-core",
-  "version": "0.0.1",
-  "type": "library",
-  "elements": {
-    "TestElement": {}
-  }
-}
