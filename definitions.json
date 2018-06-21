@@ -23,7 +23,6 @@
     "Text": {
       "defaults": {
         "style": {
-          "display": "flex",
           "color": "#999"
         },
         "children": "text"
