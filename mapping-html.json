@@ -1,15 +1,12 @@
 {
   "name": "teleport-elements-core-html",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "mapping",
   "library": "teleport-elements-core",
   "target": "html",
   "maps": {
     "Text": {
       "type": "span"
-    },
-    "Button": {
-      "type": "button"
     },
     "Image": {
       "type": "img",
@@ -23,11 +20,35 @@
     "H1": {
       "type": "h1"
     },
-    "Pre": {
-      "type": "pre"
+    "H2": {
+      "type": "h1"
+    },
+    "H3": {
+      "type": "h1"
+    },
+    "H4": {
+      "type": "h1"
+    },
+    "H5": {
+      "type": "h1"
     },
     "Link": {
       "type": "a"
+    },
+    "Button": {
+      "type": "button"
+    },
+    "TextInput": {
+      "type": "input",
+      "props": {
+        "type": "text"
+      }
+    },
+    "TextAreaInput": {
+      "type": "textarea"
+    },
+    "Svg": {
+      "type": "svg"
     }
   }
 }

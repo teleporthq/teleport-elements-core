@@ -1,6 +1,6 @@
 {
   "name": "teleport-elements-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "library",
   "elements": {
     "View": {
@@ -28,14 +28,6 @@
         "children": "text"
       }
     },
-    "Pre": {
-      "defaults": {
-        "style": {
-          "color": "#000"
-        },
-        "children": "pre"
-      }
-    },
     "H1": {
       "defaults": {
         "style": {
@@ -43,6 +35,50 @@
           "fontSize": 24
         },
         "children": "Heading 1"
+      }
+    },
+    "H2": {
+      "defaults": {
+        "style": {
+          "color": "#000",
+          "fontSize": 20
+        },
+        "children": "Heading 2"
+      }
+    },
+    "H3": {
+      "defaults": {
+        "style": {
+          "color": "#000",
+          "fontSize": 18
+        },
+        "children": "Heading 3"
+      }
+    },
+    "H4": {
+      "defaults": {
+        "style": {
+          "color": "#000",
+          "fontSize": 14
+        },
+        "children": "Heading 4"
+      }
+    },
+    "H5": {
+      "defaults": {
+        "style": {
+          "color": "#000",
+          "fontSize": 12
+        },
+        "children": "Heading 5"
+      }
+    },
+    "Link": {
+      "defaults": {
+        "style": {
+          "color": "blue"
+        },
+        "children": "link"
       }
     },
     "Button": {
@@ -54,6 +90,33 @@
           "color": "#FFF"
         },
         "children": "button"
+      }
+    },
+    "TextInput": {
+      "defaults": {
+        "style": {
+          "borderSize": 1,
+          "borderColor": "#999999",
+          "width": 55,
+          "height": 25,
+          "color": "#000"
+        }
+      }
+    },
+    "TextAreaInput": {
+      "defaults": {
+        "style": {
+          "borderSize": 1,
+          "borderColor": "#999999",
+          "width": 100,
+          "height": 50,
+          "color": "#000"
+        }
+      }
+    },
+    "Svg": {
+      "defaults": {
+        "children": "<g id=\"lala\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><ellipse id=\"Oval\" stroke=\"#979797\" fill=\"#D8D8D8\" cx=\"191.5\" cy=\"107\" rx=\"190.5\" ry=\"106\"></ellipse></g>"
       }
     }
   }
