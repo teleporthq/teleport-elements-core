@@ -1,0 +1,13 @@
+{
+  "name": "@teleporthq/teleport-elements-core",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/teleporthq/teleport-elements-core.git"
+  },
+  "author": "teleportHQ",
+  "license": "MIT",
+  "dependencies": {}
+}
