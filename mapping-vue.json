@@ -1,6 +1,6 @@
 {
   "name": "teleport-elements-core-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "mapping",
   "target": "vue",
   "library": "teleport-elements-core",

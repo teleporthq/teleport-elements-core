@@ -1,6 +1,6 @@
 {
   "name": "teleport-elements-core-nuxt",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "mapping",
   "target": "nuxt",
   "library": "teleport-elements-core",

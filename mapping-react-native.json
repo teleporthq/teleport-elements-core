@@ -1,6 +1,6 @@
 {
   "name": "teleport-elements-core-react-native",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "mapping",
   "library": "teleport-elements-core",
   "target": "react-native",
