@@ -15,6 +15,7 @@
           "borderWidth": 1,
           "borderStyle": "solid"
         }
+      }
     },
     "Image": {
       "defaults": {
