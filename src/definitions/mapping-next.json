@@ -8,7 +8,8 @@
   "maps": {
     "Link": {
       "type": "Link",
-      "source": "next/link"
+      "source": "next/link",
+      "defaultImport": true
     }
   }
 }
