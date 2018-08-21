@@ -8,9 +8,36 @@
     "react-native": "latest"
   },
   "maps": {
+    "View": {
+      "library": "react-native",
+      "type": "View"
+    },
     "Text": {
       "library": "react-native",
       "type": "Text"
+    },
+    "H1": {
+      "library": "react-native",
+      "type": "Text"
+    },
+    "H2": {
+      "library": "react-native",
+      "type": "Text"
+    },
+    "H3": {
+      "library": "react-native",
+      "type": "Text"
+    },
+    "H4": {
+      "library": "react-native",
+      "type": "Text"
+    },
+    "H5": {
+      "library": "react-native",
+      "type": "Text"
+    },
+    "Link": {
+      "type": "TouchableOpacity"
     },
     "Button": {
       "library": "react-native",
@@ -20,9 +47,20 @@
       "library": "react-native",
       "type": "Image"
     },
-    "View": {
+    "Svg": {
+      "type": "Image",
+      "library": "react-native"
+    },
+    "TextInput": {
       "library": "react-native",
-      "type": "View"
+      "type": "TextInput"
+    },
+    "TextAreaInput": {
+      "library": "react-native",
+      "type": "TextInput",
+      "props": {
+        "multiline": true
+      }
     }
   }
 }
