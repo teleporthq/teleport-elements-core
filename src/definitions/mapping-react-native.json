@@ -9,54 +9,54 @@
   },
   "maps": {
     "View": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "View"
     },
     "Text": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "Text"
     },
     "H1": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "Text"
     },
     "H2": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "Text"
     },
     "H3": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "Text"
     },
     "H4": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "Text"
     },
     "H5": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "Text"
     },
     "Link": {
       "type": "TouchableOpacity"
     },
     "Button": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "TouchableOpacity"
     },
     "Image": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "Image"
     },
     "Svg": {
       "type": "Image",
-      "library": "react-native"
+      "source": "react-native"
     },
     "TextInput": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "TextInput"
     },
     "TextAreaInput": {
-      "library": "react-native",
+      "source": "react-native",
       "type": "TextInput",
       "props": {
         "multiline": true
