@@ -7,13 +7,13 @@ const mappingNuxt = require('./definitions/mapping-nuxt.json')
 const mappingVue = require('./definitions/mapping-vue.json')
 
 const core = {
-  definitions,
-  mappingHtml,
-  mappingReact,
-  mappingReactNative,
-  mappingNext,
-  mappingNuxt,
-  mappingVue,
+  definitions: definitions,
+  mappingHtml: mappingHtml,
+  mappingReact: mappingReact,
+  mappingReactNative: mappingReactNative,
+  mappingNext: mappingNext,
+  mappingNuxt: mappingNuxt,
+  mappingVue: mappingVue,
 }
 
 module.exports = core
