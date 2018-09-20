@@ -8,29 +8,32 @@
     "Text": {
       "type": "span"
     },
+    "View": {
+      "type": "div"
+    },
     "Image": {
       "type": "img",
       "props": {
         "src": "props.uri"
       }
     },
-    "View": {
-      "type": "div"
-    },
     "H1": {
       "type": "h1"
     },
     "H2": {
-      "type": "h1"
+      "type": "h2"
     },
     "H3": {
-      "type": "h1"
+      "type": "h3"
     },
     "H4": {
-      "type": "h1"
+      "type": "h4"
     },
     "H5": {
-      "type": "h1"
+      "type": "h5"
+    },
+    "H6": {
+      "type": "h6"
     },
     "Link": {
       "type": "a"
@@ -44,8 +47,50 @@
         "type": "text"
       }
     },
+    "Checkbox": {
+      "type": "input",
+      "props": {
+        "type": "checkbox"
+      }
+    },
+    "ColorPicker": {
+      "type": "input",
+      "props": {
+        "type": "color"
+      }
+    },
+    "DateTimePicker": {
+      "type": "input",
+      "props": {
+        "type": "datetime-local"
+      }
+    },
+    "RadioButton": {
+      "type": "input",
+      "props": {
+        "type": "radio"
+      }
+    },
+    "Range": {
+      "type": "input",
+      "props": {
+        "type": "range"
+      }
+    },
+    "TimePicker": {
+      "type": "input",
+      "props": {
+        "type": "time"
+      }
+    },
     "TextAreaInput": {
       "type": "textarea"
+    },
+    "Video": {
+      "type": "video"
+    },
+    "ProgressBar": {
+      "type": "progress"
     },
     "Svg": {
       "type": "svg"
