@@ -1,6 +1,6 @@
 {
   "name": "teleport-elements-core",
-  "version": "0.0.6",
+  "version": "0.0.8",
   "type": "library",
   "elements": {
     "Text": {
@@ -157,7 +157,7 @@
     "Checkbox": {},
     "ColorPicker": {},
     "DateTimePicker": {},
-    "RadioButton":{},
+    "RadioButton": {},
     "Range": {
       "editableProps": {
         "max": {
@@ -183,10 +183,8 @@
         }
       }
     },
-    "Video": {
-    },
-    "ProgressBar": {
-    },
+    "Video": {},
+    "ProgressBar": {},
     "Svg": {
       "defaults": {
         "children": "<g id=\"lala\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><ellipse id=\"Oval\" stroke=\"#979797\" fill=\"#D8D8D8\" cx=\"191.5\" cy=\"107\" rx=\"190.5\" ry=\"106\"></ellipse></g>"
