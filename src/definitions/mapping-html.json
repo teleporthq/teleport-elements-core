@@ -14,7 +14,7 @@
     "Image": {
       "type": "img",
       "props": {
-        "src": "props.uri"
+        "src": "props.src"
       }
     },
     "H1": {
