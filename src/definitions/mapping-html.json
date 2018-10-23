@@ -1,6 +1,6 @@
 {
   "name": "teleport-elements-core-html",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "mapping",
   "library": "teleport-elements-core",
   "target": "html",
@@ -40,6 +40,27 @@
     },
     "Button": {
       "type": "button"
+    },
+    "A": {
+      "type": "a"
+    },
+    "Ul": {
+      "type": "ul"
+    },
+    "Li": {
+      "type": "li"
+    },
+    "Pre": {
+      "type": "pre"
+    },
+    "Br": {
+      "type": "br"
+    },
+    "Iframe": {
+      "type": "iframe"
+    },
+    "Hr": {
+      "type": "hr"
     },
     "TextInput": {
       "type": "input",
