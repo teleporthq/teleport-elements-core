@@ -5,153 +5,73 @@
   "elements": {
     "Text": {
       "defaults": {
-        "style": {
-          "fontFamily": "inherit",
-          "color": "#0089be"
-        },
         "children": "Text"
       }
     },
-    "View": {
-      "defaults": {
-        "style": {
-          "width": 100,
-          "height": 50,
-          "display": "flex",
-          "alignItems": "flex-start",
-          "backgroundColor": "rgba(50, 138, 241, .15)",
-          "borderColor": "#0089be",
-          "borderWidth": 1,
-          "borderStyle": "solid"
-        }
-      }
-    },
-    "Image": {
-      "defaults": {
-        "style": {
-          "width": 300,
-          "height": 250
-        }
-      }
-    },
-    "H1": {
-      "defaults": {
-        "style": {
-          "fontSize": "2em",
-          "fontFamily": "inherit",
-          "color": "#0089be"
-        },
-        "children": "Heading 1"
-      }
-    },
-    "H2": {
-      "defaults": {
-        "style": {
-          "fontSize": "1.5em",
-          "fontFamily": "inherit",
-          "color": "#0089be"
-        },
-        "children": "Heading 2"
-      }
-    },
-    "H3": {
-      "defaults": {
-        "style": {
-          "fontSize": "1.17em",
-          "fontFamily": "inherit",
-          "color": "#0089be"
-        },
-        "children": "Heading 3"
-      }
-    },
-    "H4": {
-      "defaults": {
-        "style": {
-          "fontSize": "1em",
-          "fontFamily": "inherit",
-          "color": "#0089be"
-        },
-        "children": "Heading 4"
-      }
-    },
-    "H5": {
-      "defaults": {
-        "style": {
-          "fontSize": ".83em",
-          "fontFamily": "inherit",
-          "color": "#0089be"
-        },
-        "children": "Heading 5"
-      }
-    },
-    "H6": {
-      "defaults": {
-        "style": {
-          "fontSize": ".75em",
-          "fontFamily": "inherit",
-          "color": "#0089be"
-        },
-        "children": "Heading 6"
-      }
-    },
-    "Link": {
-      "defaults": {
-        "style": {
-          "color": "blue"
-        },
-        "children": "link"
-      }
-    },
-    "Button": {
-      "defaults": {
-        "style": {
-          "width": 120,
-          "height": 40,
-          "display": "flex",
-          "justifyContent": "center",
-          "alignItems": "center",
-          "fontFamily": "inherit",
-          "backgroundColor": "rgba(50, 138, 241, .15)",
-          "borderColor": "#0089be",
-          "borderStyle": "solid",
-          "borderRadius": 4,
-          "borderWidth": 1,
-          "color": "#0089be"
-        },
-        "children": "button"
-      }
-    },
-    "TextInput": {
-      "editableProps": {
-        "type": {
-          "defaultValue": "text",
-          "values": [
-            "button",
-            "date",
-            "email",
-            "file",
-            "image",
-            "month",
-            "number",
-            "password",
-            "reset",
-            "search",
-            "submit",
-            "tel",
-            "text",
-            "url",
-            "week"
-          ]
-        }
-      },
-      "defaults": {
-        "style": {
-          "width": 55,
-          "height": 25,
-          "borderSize": 1,
-          "borderColor": "#999999",
-          "color": "#000"
-        }
+    "View": {}
+  },
+  "Image": {},
+  "H1": {
+    "defaults": {
+      "children": "Heading 1"
+    }
+  },
+  "H2": {
+    "defaults": {
+      "children": "Heading 2"
+    }
+  },
+  "H3": {
+    "defaults": {
+      "children": "Heading 3"
+    }
+  },
+  "H4": {
+    "defaults": {
+      "children": "Heading 4"
+    }
+  },
+  "H5": {
+    "defaults": {
+      "children": "Heading 5"
+    }
+  },
+  "H6": {
+    "defaults": {
+      "children": "Heading 6"
+    }
+  },
+  "Link": {
+    "defaults": {
+      "children": "link"
+    }
+  },
+  "Button": {
+    "defaults": {
+      "children": "button"
+    }
+  },
+  "TextInput": {
+    "editableProps": {
+      "type": {
+        "defaultValue": "text",
+        "values": [
+          "button",
+          "date",
+          "email",
+          "file",
+          "image",
+          "month",
+          "number",
+          "password",
+          "reset",
+          "search",
+          "submit",
+          "tel",
+          "text",
+          "url",
+          "week"
+        ]
       }
     },
     "Checkbox": {},
@@ -172,17 +92,7 @@
       }
     },
     "TimePicker": {},
-    "TextAreaInput": {
-      "defaults": {
-        "style": {
-          "width": 100,
-          "height": 50,
-          "borderSize": 1,
-          "borderColor": "#999999",
-          "color": "#000"
-        }
-      }
-    },
+    "TextAreaInput": {},
     "Video": {},
     "ProgressBar": {},
     "Svg": {
