@@ -5,119 +5,73 @@
   "elements": {
     "Text": {
       "defaults": {
-        "style": {},
         "children": "Text"
       }
     },
-    "View": {
-      "defaults": {
-        "style": {
-          "width": 100,
-          "height": 50
-        }
-      }
-    },
-    "Image": {
-      "defaults": {
-        "style": {
-          "width": 300,
-          "height": 250
-        }
-      }
-    },
-    "H1": {
-      "defaults": {
-        "style": {
-          "fontSize": "2em"
-        },
-        "children": "Heading 1"
-      }
-    },
-    "H2": {
-      "defaults": {
-        "style": {
-          "fontSize": "1.5em"
-        },
-        "children": "Heading 2"
-      }
-    },
-    "H3": {
-      "defaults": {
-        "style": {
-          "fontSize": "1.17em"
-        },
-        "children": "Heading 3"
-      }
-    },
-    "H4": {
-      "defaults": {
-        "style": {
-          "fontSize": "1em"
-        },
-        "children": "Heading 4"
-      }
-    },
-    "H5": {
-      "defaults": {
-        "style": {
-          "fontSize": ".83em"
-        },
-        "children": "Heading 5"
-      }
-    },
-    "H6": {
-      "defaults": {
-        "style": {
-          "fontSize": ".75em"
-        },
-        "children": "Heading 6"
-      }
-    },
-    "Link": {
-      "defaults": {
-        "style": {
-          "color": "#0000EE"
-        },
-        "children": "link"
-      }
-    },
-    "Button": {
-      "defaults": {
-        "style": {
-          "width": 120,
-          "height": 40
-        },
-        "children": "button"
-      }
-    },
-    "TextInput": {
-      "editableProps": {
-        "type": {
-          "defaultValue": "text",
-          "values": [
-            "button",
-            "date",
-            "email",
-            "file",
-            "image",
-            "month",
-            "number",
-            "password",
-            "reset",
-            "search",
-            "submit",
-            "tel",
-            "text",
-            "url",
-            "week"
-          ]
-        }
-      },
-      "defaults": {
-        "style": {
-          "width": 55,
-          "height": 25
-        }
+    "View": {}
+  },
+  "Image": {},
+  "H1": {
+    "defaults": {
+      "children": "Heading 1"
+    }
+  },
+  "H2": {
+    "defaults": {
+      "children": "Heading 2"
+    }
+  },
+  "H3": {
+    "defaults": {
+      "children": "Heading 3"
+    }
+  },
+  "H4": {
+    "defaults": {
+      "children": "Heading 4"
+    }
+  },
+  "H5": {
+    "defaults": {
+      "children": "Heading 5"
+    }
+  },
+  "H6": {
+    "defaults": {
+      "children": "Heading 6"
+    }
+  },
+  "Link": {
+    "defaults": {
+      "children": "link"
+    }
+  },
+  "Button": {
+    "defaults": {
+      "children": "button"
+    }
+  },
+  "TextInput": {
+    "editableProps": {
+      "type": {
+        "defaultValue": "text",
+        "values": [
+          "button",
+          "date",
+          "email",
+          "file",
+          "image",
+          "month",
+          "number",
+          "password",
+          "reset",
+          "search",
+          "submit",
+          "tel",
+          "text",
+          "url",
+          "week"
+        ]
       }
     },
     "Checkbox": {},
@@ -138,14 +92,7 @@
       }
     },
     "TimePicker": {},
-    "TextAreaInput": {
-      "defaults": {
-        "style": {
-          "width": 100,
-          "height": 50
-        }
-      }
-    },
+    "TextAreaInput": {},
     "Video": {},
     "ProgressBar": {},
     "Svg": {
