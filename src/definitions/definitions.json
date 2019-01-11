@@ -1,6 +1,6 @@
 {
   "name": "teleport-elements-core",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "type": "library",
   "elements": {
     "Text": {
@@ -8,70 +8,70 @@
         "children": "Text"
       }
     },
-    "View": {}
-  },
-  "Image": {},
-  "H1": {
-    "defaults": {
-      "children": "Heading 1"
-    }
-  },
-  "H2": {
-    "defaults": {
-      "children": "Heading 2"
-    }
-  },
-  "H3": {
-    "defaults": {
-      "children": "Heading 3"
-    }
-  },
-  "H4": {
-    "defaults": {
-      "children": "Heading 4"
-    }
-  },
-  "H5": {
-    "defaults": {
-      "children": "Heading 5"
-    }
-  },
-  "H6": {
-    "defaults": {
-      "children": "Heading 6"
-    }
-  },
-  "Link": {
-    "defaults": {
-      "children": "link"
-    }
-  },
-  "Button": {
-    "defaults": {
-      "children": "button"
-    }
-  },
-  "TextInput": {
-    "editableProps": {
-      "type": {
-        "defaultValue": "text",
-        "values": [
-          "button",
-          "date",
-          "email",
-          "file",
-          "image",
-          "month",
-          "number",
-          "password",
-          "reset",
-          "search",
-          "submit",
-          "tel",
-          "text",
-          "url",
-          "week"
-        ]
+    "View": {},
+    "Image": {},
+    "H1": {
+      "defaults": {
+        "children": "Heading 1"
+      }
+    },
+    "H2": {
+      "defaults": {
+        "children": "Heading 2"
+      }
+    },
+    "H3": {
+      "defaults": {
+        "children": "Heading 3"
+      }
+    },
+    "H4": {
+      "defaults": {
+        "children": "Heading 4"
+      }
+    },
+    "H5": {
+      "defaults": {
+        "children": "Heading 5"
+      }
+    },
+    "H6": {
+      "defaults": {
+        "children": "Heading 6"
+      }
+    },
+    "Link": {
+      "defaults": {
+        "children": "link"
+      }
+    },
+    "Button": {
+      "defaults": {
+        "children": "button"
+      }
+    },
+    "TextInput": {
+      "editableProps": {
+        "type": {
+          "defaultValue": "text",
+          "values": [
+            "button",
+            "date",
+            "email",
+            "file",
+            "image",
+            "month",
+            "number",
+            "password",
+            "reset",
+            "search",
+            "submit",
+            "tel",
+            "text",
+            "url",
+            "week"
+          ]
+        }
       }
     },
     "Checkbox": {},
