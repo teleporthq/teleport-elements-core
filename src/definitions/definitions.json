@@ -72,32 +72,32 @@
             "week"
           ]
         }
-      },
-      "Checkbox": {},
-      "ColorPicker": {},
-      "DateTimePicker": {},
-      "RadioButton": {},
-      "Range": {
-        "editableProps": {
-          "max": {
-            "defaultValue": 100
-          },
-          "min": {
-            "defaultValue": 0
-          },
-          "step": {
-            "defaultValue": 1
-          }
+      }
+    },
+    "Checkbox": {},
+    "ColorPicker": {},
+    "DateTimePicker": {},
+    "RadioButton": {},
+    "Range": {
+      "editableProps": {
+        "max": {
+          "defaultValue": 100
+        },
+        "min": {
+          "defaultValue": 0
+        },
+        "step": {
+          "defaultValue": 1
         }
-      },
-      "TimePicker": {},
-      "TextAreaInput": {},
-      "Video": {},
-      "ProgressBar": {},
-      "Svg": {
-        "defaults": {
-          "children": "<g id=\"lala\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><ellipse id=\"Oval\" stroke=\"#979797\" fill=\"#D8D8D8\" cx=\"191.5\" cy=\"107\" rx=\"190.5\" ry=\"106\"></ellipse></g>"
-        }
+      }
+    },
+    "TimePicker": {},
+    "TextAreaInput": {},
+    "Video": {},
+    "ProgressBar": {},
+    "Svg": {
+      "defaults": {
+        "children": "<g id=\"lala\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><ellipse id=\"Oval\" stroke=\"#979797\" fill=\"#D8D8D8\" cx=\"191.5\" cy=\"107\" rx=\"190.5\" ry=\"106\"></ellipse></g>"
       }
     }
   }
